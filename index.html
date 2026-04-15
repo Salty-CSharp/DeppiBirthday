@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Birthday!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+
+    <div class="musicstuff">
+  <audio loop id="bgm">
+    <source src="hertas/hertamusic.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <audio id="confetti">
+    <source src="hertas/confetti.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+  <h2>Volume!</h2>
+    </div>
+
+    <main>
+      <div id="agebox">
+      <h1 id="agebefore">You are...</h1>
+      <h1 id ="age"></h1>
+      <h1 id="ageafter">years old!</h1>
+      </div>
+      <div id="buttoncont">
+      <button id="yearcount">Count 'em!</button>
+      </div>
+      <div id="hertaBox">
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  </body>
+</html>
