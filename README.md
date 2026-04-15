@@ -1,3 +1,3 @@
-# DeppiBirthday
+# Deppi-Birthday
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Salty-CSharp/DeppiBirthday)
+A birthday gift. HTML/CSS/JS project
